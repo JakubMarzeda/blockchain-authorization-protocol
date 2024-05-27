@@ -1,0 +1,28 @@
+1.About app
+aplikacja umozliwia zarzadzanie transakcjami i uzytkownikami
+
+2.Code structure
+
+klasa block - reprezentuje pojedynczy blok w blockchainie. 
+Przechowuje:
+index, dane, poprzedni hash, aktualny hash, znacznik czasu(dane, dzięki którym można określić moment, w którym zaszło określone zdarzenie)
+
+klasa user - sluzy do przechowyania danych (login, haslo, stan konta)
+
+klasa blockchain - zarzadza blockchainem i uzytkownikami - tworzy nowe bloki, autoryzuje transakcje i  sprawdza poprawnosc danych
+
+klasa transaction - przechowuje pojedynczy element - transakcja pomiedzy uzytkownikami. Przechowuje dane transakcji i znacznik czasu
+
+3.Blockchain Operations:
+1. Add User
+2. Authorize Transaction
+3. Deposit Funds
+4. Display Blockchain
+5. Display Users
+6. Exit
+
+4.Launching the app:
+opisane w pliku "Dokumentacja uruchomieniowa.txt"
+
+5.App requirements:
+interpreter pythona

@@ -1,0 +1,10 @@
+1.python dependencies installation
+pip install pyinstaller
+
+2.build app by using instaled dependencies
+pyinstaller --onefile <file_name>
+
+3.how to run app
+go to folder named dist
+cd dist
+./ <file_name>
